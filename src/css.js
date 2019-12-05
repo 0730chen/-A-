@@ -1,4 +1,3 @@
-console.log('css')
 let cssStyle = `* {
     padding: 0;
     margin: 0;
@@ -206,7 +205,6 @@ ul, li, ol {
     transform: translateX(-50%);
     /*background: rgb(249,37,45);*/
 }
-
 @media (max-width: 500px) {
     .skin >.skin-color>.eye-left {
         width: 50px;
@@ -298,6 +296,7 @@ ul, li, ol {
         /*background: rgb(249,37,45);*/
     }
 }
+
 `
 
 export default cssStyle
